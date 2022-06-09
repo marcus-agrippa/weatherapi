@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="w-location" class="m-1"></h1>
+    <h3 id="w-temp" class="m-1"></h3>
+    <h3 id="w-weather"  class=""></h3>
+    <img id="w-icon" class="m-1">
+    <ul id="w-details">
+      <li id="w-humidity" class="m-1"></li>
+      <li id="w-wind-speed" class="m-1"></li>
+      <li id="w-feels-like" class="m-1"></li>
+    </ul>
+    <form>
+      <div class="user-choice">
+        <label for="userCity" id="userCity" class="m-1">Change Location</label>
+        <input type="text" name="userCity" class="m-1" id="user-city" placeholder="eg. Sydney">
+        <button class="btn m-1 p-1" id="btn">Change Location</button>
+      </div>
+    </form>
+  </div>
+  <script src="storage.js"></script>
+  <script src="weather.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
