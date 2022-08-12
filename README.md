@@ -2,11 +2,11 @@ Overview:
 
 A weather application created using openweathermap API.
 
-*Requires API key
+\*Requires API key
 
 Features:
 
-Displays temp, wind speed, humidity, feels like of selected city.
+Displays temp, wind speed, humidity, feels like of selected city. I added this.
 
 Live Demo:
 
